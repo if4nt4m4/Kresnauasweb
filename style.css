@@ -1,0 +1,129 @@
+body {
+    background-image: url(gambar/pnm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-left: 42%;
+    position: relative;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    margin-left: 40%;
+    border: 1px solid #ccc;
+    background-color: #000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container {
+    width: 250px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.button {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    background-color: #4169E1;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4169E1;
+}
+
+header {
+    background-color: navy;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: skyblue;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
